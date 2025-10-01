@@ -1,0 +1,60 @@
+title: "&8Manage Pickup &7(&f%page% &7/ &f%max-page%&7)"
+layout: |-
+  .........
+  .........
+  .........
+  .........
+  .........
+  -?-<@>-x-
+items:
+  '?':
+    +: IDisplay
+    Type: BIRCH_SIGN
+    Display:
+      - "&eSearch Item"
+      - "&7Click to search!"
+    Action:
+      +: TJAction
+      playsound: "minecraft:ui.button.click, 1, 1"
+      function: search
+  "x":
+    +: IDisplay
+    Type: ANVIL
+    Display:
+      - "{%show-disabled% ? '&cShow Disabled Items Only' : '&eShow All Items'}"
+    Action:
+      +: TJAction
+      playsound: "minecraft:ui.button.click, 1, 1"
+      function: toggle
+  '-':
+    +: IDisplay
+    Type: BLACK_STAINED_GLASS_PANE
+    Display:
+    - " "
+  '@':
+    +: IDisplay
+    Type: BARRIER
+    Display:
+      - "&cClose"
+    Action:
+      +: TJAction
+      close: ""
+      playsound: "minecraft:ui.button.click, 1, 1"
+  <:
+    +: IDisplay
+    Head: 37aee9a75bf0df7897183015cca0b2a7d755c63388ff01752d5f4419fc645
+    Display:
+      - "&6Previous Page"
+    Action:
+      +: TJAction
+      prevpage: ""
+      playsound: "minecraft:ui.button.click, 1, 1"
+  ">":
+    +: IDisplay
+    Head: 682ad1b9cb4dd21259c0d75aa315ff389c3cef752be3949338164bac84a96e
+    Display:
+      - "&6Next Page"
+    Action:
+      +: TJAction
+      nextpage: ""
+      playsound: "minecraft:ui.button.click, 1, 1"

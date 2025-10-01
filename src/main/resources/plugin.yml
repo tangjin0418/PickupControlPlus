@@ -1,0 +1,7 @@
+name: PickupControlPlus
+version: '${project.version}'
+main: org.tjdev.custom.pickupcontrolplus.PickupControlPlus
+api-version: '1.20'
+authors: [ TangJin ]
+description: A fork of PickupControl.
+website: tjservice.org
