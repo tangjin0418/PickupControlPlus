@@ -5,3 +5,4 @@ api-version: '1.20'
 authors: [ TangJin ]
 description: A fork of PickupControl.
 website: tjservice.org
+folia-supported: true

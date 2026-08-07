@@ -3,7 +3,7 @@ package org.tjdev.custom.pickupcontrolplus.config;
 import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.tjdev.custom.pickupcontrolplus.PickupControlPlus;
-import org.tjdev.util.tjpluginutil.config.mapper.InlineComment;
+import org.tjdev.util.tjpluginutil.config.mapper.comment.InlineComment;
 import org.tjdev.util.tjpluginutil.config.mapper.MappedConfig;
 import org.tjdev.util.tjpluginutil.database.SimpleDatabase;
 import org.tjdev.util.tjpluginutil.object.NewThis;

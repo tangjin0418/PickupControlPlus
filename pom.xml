@@ -6,7 +6,7 @@
 
     <groupId>org.tjdev.custom</groupId>
     <artifactId>PickupControlPlus</artifactId>
-    <version>73</version>
+    <version>76</version>
     <packaging>jar</packaging>
 
     <name>PickupControlPlus</name>
